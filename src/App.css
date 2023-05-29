@@ -26,17 +26,18 @@
 }
 
 .controls-container button {
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 3.3rem;
+  height: 3.3rem;
   padding: 1rem 0.5rem;
   margin: 0.2rem;
+  font-size: 1rem;
 }
 
 button,
 input {
   cursor: pointer;
   border-radius: 10px;
-  font-size: 1.3rem;
+  font-size: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.21);
   background-color: #4d576ba7;
   color: white;
