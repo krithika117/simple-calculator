@@ -1,12 +1,9 @@
 import React, {useState} from "react";
 
 const Calculator = () => {
-    const [input1,
-        setInput1] = useState("");
-    const [input2,
-        setInput2] = useState("");
-    const [result,
-        setResult] = useState("");
+    const [input1, setInput1] = useState("");
+    const [input2, setInput2] = useState("");
+    const [result, setResult] = useState("");
 
     const handleOperation = (operation) => {
         if (input1 && input2) {
@@ -30,8 +27,7 @@ const Calculator = () => {
                 default:
                     break;
             }
-
-            setResult(output.toString());
+            setResult(output);
         }
     };
 
